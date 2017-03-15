@@ -1,0 +1,33 @@
+Raspberry pi shows display screen.
+Receives network commands to update the display
+Can have a menu to update the display locally
+
+information for tiles stored in file
+
+Operations:
+	tile loading/unloading
+	tile departed
+	tile re-organisation
+	tile update
+	tile creation
+	tile removed
+
+
+
+to do:
+- create main display:
+
+
+Class tile:
+	a tkinter frame
+	parent of frame is given in constructor __init__
+	sizes
+	placement
+
+Class event_tile(tile)
+	event items to go into a tile object
+
+
+Class return_tile(tile)
+	items to go into a tile object
+	

@@ -25,3 +25,5 @@ def init_log():
 
     l.debug("Logging initialised")
     return l
+
+l = init_log()
